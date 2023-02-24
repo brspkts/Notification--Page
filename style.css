@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    background-color: hsl(211, 68%, 94%);
+}
+
+.main-container{
+    background-color: hsl(0, 0%, 100%);
+    width: 40%;
+}
+.container{
+    margin: 0 20px;
+}
+
+.box1{
+    display: flex;
+}
+.box1 h3{
+    margin-right: 10px;
+}
+.box1 p{
+    margin-left: auto;
+    color: hsl(219, 14%, 63%);
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.box1 p:hover{
+    cursor: pointer;
+    color: hsl(219, 12%, 42%);
+}
+.notif{
+    border-radius: 5px;
+    background-color: hsl(219, 85%, 26%);
+    width: 20px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    height: 20px;
+    margin-top: 20px;
+}
+.box2{
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    background: url(/assets/images/avatar-mark-webber.webp);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-color: hsl(210, 60%, 98%);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center left;
+    margin-bottom: 10px;
+}
+.box2 p, .box3 p, .box4 p, .box5 p,.box7 p, .box8 p, .box9 p{
+    margin-left: 60px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+span{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+span:hover, .span1:hover{
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+.span1{
+    color: hsl(219, 12%, 42%);
+}
+.chat1{
+    display: flex;
+}
+.dot{
+    background-color: hsl(1, 90%, 64%);
+    width: 6px;
+    height: 6px;
+    margin-top: 12px;
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.box3{
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    background: url(/assets/images/avatar-angela-gray.webp);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-color: hsl(210, 60%, 98%);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center left;
+    margin-bottom: 10px;
+}
+.box4{
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    background: url(/assets/images/avatar-jacob-thompson.webp);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-color: hsl(210, 60%, 98%);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center left;
+    margin-bottom: 10px;
+}
+.span2{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+.box5{
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    background: url(/assets/images/avatar-rizky-hasanuddin.webp);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center left;
+    margin-bottom: 10px;
+}
+.box6{
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 1px solid hsl(211, 68%, 94%);
+    height: 70px;
+}
+.box6:active{
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+    color: hsl(219, 12%, 42%);
+}
+.box6:hover{
+    cursor: pointer;
+}
+.box6 p{
+    margin: 0 5px;
+}
+.box7{
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    background: url(/assets/images/avatar-kimberly-smith.webp),url(/assets/images/image-chess.webp);
+    background-repeat: no-repeat;
+    background-position: center left, center right;
+    background-size: 40px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.box8{
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    background: url(/assets/images/avatar-nathan-peterson.webp);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center left;
+    margin-bottom: 10px;
+}
+.box9{
+    font-size: 0.8rem;
+    color: hsl(219, 14%, 63%);
+    background: url(/assets/images/avatar-anna-kim.webp);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center left;
+    margin-bottom: 10px;
+}
+
+@media (max-width:400px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        background-color: hsl(0, 0%, 100%);
+    }
+    
+    .main-container{
+        background-color: hsl(0, 0%, 100%);
+        width: 90%;
+    }
+    .container{
+        margin: 0;
+    }
+    #dot{
+        width: 6px;
+        height: 5px;
+        margin-top: 12px;
+        margin-left: 0;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+    .box7 p{
+        width: 200px;
+        margin: 0 55px;
+    }
+    .box7, .box8, .box9{
+        margin-bottom: 20px;
+    }
+}

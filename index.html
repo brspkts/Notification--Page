@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+  <main class="main-container">
+    <div class="container">
+      <div class="box1">
+        <h3>Notifications</h3>
+        <h3 class="notif" id="notif">3</h3>
+        <p id="read" onclick="myFunction()">Mark all as read</p>
+      </div>
+      <div class="box2" id="chatbox1" >
+        <div class="chat1">
+          <p><span> Mark Webber</span> reacted to your recent post <span class="span1"> My first tournament today!</span></p>
+          <div class="dot" id="dot1"></div>
+        </div>
+          <p>1m ago</p>
+      </div>
+      <div class="box3" id="chatbox2">
+        <div class="chat1">
+          <p><span> Angela Gray</span> followed you </p>
+          <div class="dot" id="dot2"></div>
+        </div>
+          <p>5m ago</p>
+      </div>
+      <div class="box4" id="chatbox3">
+        <div class="chat1">
+          <p><span> Jacob Thompson</span> has joined your group  <span class="span2"> Chess Club</span></p>
+          <div class="dot" id="dot3"></div>
+        </div>
+          <p>1 day ago</p>
+      </div>
+      <div class="box5">
+        <div class="chat1">
+          <p><span> Rizky Hasanuddin</span> sent you a private message </p>
+        </div>
+          <p>5 days ago</p>
+      </div>
+      <div class="box6">
+        <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+          I'm already having lots of fun and improving my game.</p>
+      </div>
+      <div class="box7">
+        <div class="chat1">
+          <p><span> Kimberly Smith</span> commented on your picture </p>
+        </div>
+          <p>1 week ago</p>
+      </div>
+      <div class="box8">
+        <div class="chat1">
+          <p><span> Nathan Peterson</span> reacted to your recent post <span class="span1"> 5 end-game strategies to increase your win rate</span>  </p>
+        </div>
+          <p>2 weeks ago</p>
+      </div>
+      <div class="box9">
+        <div class="chat1">
+          <p><span> Anna Kim</span> left the group Chess Club  <span class="span2"> Chess Club</span></p>
+        </div>
+          <p>2 weeks ago</p>
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
